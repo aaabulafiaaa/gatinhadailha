@@ -18,39 +18,48 @@
 <meta property="og:description" content="Gatinha da ilha, serviço de cat e petsitter em Londrina-PR. Contato: (43) 9938-8315 (Whatsapp)"/> 
 <style>
 @font-face {
-  font-family: catamaran;
-  src: url(img/catamaran.ttf);
+ font-family: catamaran;
+ src: url(img/catamaran.ttf);
 }
- body {
+body {
  text-align: center;
  color: #276161;
  background-image: url("img/background.png");
 }
- .responsive {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 5px;
+.responsive {
+ max-width: 100%;
+ height: auto;
+ margin-bottom: 5px;
 }
 
 #description{
-  width: 40%;
-  margin: 0 auto;
-  display: none;
+ width: 40%;
+ margin: 0 auto;
+ display: none;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+@media only screen and (max-width: 768px){
 #description{
-  width: 80%;
-  margin: 0 auto;
-  display: none;
-}
+ width: 80%;
+ margin: 0 auto;
+ display: none;
+ }
 }
 #description p{
  text-align: justify;
  font-family: catamaran;
  font-size: 14pt;
 }
-#social img{
+.social{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ font-size: 0px;
+}
+.social li{
+ display: inline-block;
+ margin: 4px;
+}
+.social img{
  width: 32px;
  height: 32px;
  margin-left: 10px;
@@ -62,10 +71,10 @@
 <div id="description">
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></div>
 <br/></div>
-<div id="social">	
-<a href="https://wa.me/554399388315"><img src="img/whatsapp.png" alt="Whatsapp, (43) 9938-8315"/></a>
-<a href="https://www.instagram.com/gatinhadailha"><img src="img/instagram.png" alt="Instagram"/></a>
-<a href="https://www.facebook.com/gatinhadailhacs"><img src="img/facebook.png" alt="Facebook"/></a>
-</div>
+<ul class="social">	
+<li><a href="https://wa.me/554399388315"><img src="img/whatsapp.png" alt="Whatsapp, (43) 9938-8315"/></a></li>
+<li><a href="https://www.instagram.com/gatinhadailha"><img src="img/instagram.png" alt="Instagram"/></a></li>
+<li><a href="https://www.facebook.com/gatinhadailhacs"><img src="img/facebook.png" alt="Facebook"/></a></li>
+</ul>
 </body>
 </html>

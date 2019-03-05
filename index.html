@@ -19,7 +19,11 @@
 <style>
 @font-face {
  font-family: catamaran;
- src: url(media/catamaran.ttf);
+ src: url('media/catamaran.ttf') format('truetype');
+}
+@font-face{
+ font-family: rochester;
+ src: url('media/rochester.otf') format('opentype');
 }
 body {
  text-align: center;
@@ -45,7 +49,7 @@ margin-top: 15px;
 #description{
  width: 40%;
  margin: 0 auto;
- display: none;
+ display: ;
 }
 @media only screen and (max-width: 768px){
 #description{
@@ -58,6 +62,10 @@ margin-top: 15px;
  text-align: justify;
  font-family: catamaran;
  font-size: 14pt;
+}
+#description p h1{
+ font-family: rochester;
+ font-size: 18pt;
 }
 .round{
  float: left;
@@ -87,7 +95,7 @@ margin-top: 15px;
 <div id="website">
 <img class="responsive no_select" src="media/logo.png" alt="Gatinha da Ilha, serviço de cat e pet sitter em Londrina-PR. Contato: (43) 9938-8315 (Whatsapp)"/> 
 <div id="description">
-<p><img src="media/avatar.png" class="round"/>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+<p><img src="media/avatar.png" class="round"/><h1>Eu sou a gatinha da ilha!</h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 </div>
 <ul class="social no_select">	
 <li><a href="https://wa.me/554399388315"><img src="media/whatsapp.png" alt="Whatsapp, (43) 9938-8315"/></a></li>
